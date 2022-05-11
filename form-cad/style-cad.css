@@ -1,0 +1,80 @@
+body{
+    background-color: #9b73c2;
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+    }
+    
+    #form{
+    background-color: white;
+    max-width: 300px;
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    .login{
+        font-family: Tahoma, sans-serif;
+        font-size: 30px;
+        text-align: left;   
+    margin-top: 16px;
+    margin-left: 90px;
+        color: #470D80;
+    }
+
+    img {
+        width: 60px;
+        position: relative;
+        left: 5%;
+    }
+    
+    .text, .password, .number{
+        width: 100%;
+        height: 45px;
+        border: 1px solid #6e5885;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin: 10px 0;
+    }
+    
+    .submit{
+        width: 100%;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        background: #7116CC;
+        color: white;
+        border: 0;
+        border-radius: 20px;
+       }
+
+       .check{
+        font-family: 'Segoe UI',Tahoma, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+        margin: 10px 0;
+        color: #300f52;
+       }
+    
+       .or{
+        font-family: 'Segoe UI',Tahoma, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        color: #470D80;
+    }
+    
+      .icons{
+        display: flex;
+        justify-content: center;
+      }
+    
+      img{
+          width: 40px;
+          margin: 3px;
+          position: relative;
+          text-align: center;
+      }
