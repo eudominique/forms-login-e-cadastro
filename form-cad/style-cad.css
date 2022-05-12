@@ -9,19 +9,18 @@ body{
     background-color: white;
     max-width: 300px;
     width: 50%;
-    padding: 20px;
+    padding: 50px;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
     }
     
-    .login{
+    .cad{
         font-family: Tahoma, sans-serif;
         font-size: 30px;
-        text-align: left;   
-    margin-top: 16px;
-    margin-left: 90px;
+        text-align: center;
+        margin:8px;
         color: #470D80;
     }
 
